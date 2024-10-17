@@ -88,3 +88,7 @@ df_products_new.write.saveAsTable("products")
 # MAGIC %sql
 # MAGIC CREATE table order_dates_Spark_SQL as 
 # MAGIC select *, current_timestamp() as ingestion_date from csv.`/Volumes/sony_databricks_workspace/default/raw/order_dates.csv`
+
+# COMMAND ----------
+
+# Testing changes
